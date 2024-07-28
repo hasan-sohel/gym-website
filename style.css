@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#main-section{
+    background: url('img/sg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 690px;
+    width: 100%;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+.left img{
+    width: 98px;
+    height: 95px;
+    margin: 12px;
+    border-radius: 10px;
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    /* border: 2px solid rgb(13, 230, 13); */
+    display: block;
+    width: 45%;
+    margin: 12px auto;
+}
+.right{
+    /* border: 2px solid rgb(238, 255, 0); */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 12px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px; 
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(137, 137, 137);
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 3px 4px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: gray;
+}
+.container{
+    border: 2px solid black;
+    margin: 151px 98px;
+    padding: 31px 41px;
+    width: 33%;
+    border-radius: 30px;
+}
+.form-group input{
+    text-align: center;
+    display: block; 
+    width: 400px;
+    padding: 10px;
+    border: 2px solid black; 
+    margin: 3px auto; 
+    font-size: 20px;
+    border-radius: 10px;                                               
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 33%;
+    height: 40px;
+    font-size: 18px;
+    margin: auto;
+}
